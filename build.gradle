@@ -33,7 +33,7 @@ buildscript {
 
 apply plugin: DependenciesGraphPlugin
 
-subprojects {
+subprojects { 
     group "io.pivotal.pal.tracker"
 
     apply plugin: "java"
